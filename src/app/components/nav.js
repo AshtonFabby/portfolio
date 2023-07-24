@@ -101,7 +101,7 @@ const NavBar = () => {
             Contact
           </a>
         </div>
-        <button className="bg-primary px-7 py-2 text-dark font-semibold hover:bg-transparent hover:text-light border-2 border-primary transition-colors ease-in-out delay-100">
+        <button className="bg-primary px-7 py-2 text-dark font-semibold hover:bg-transparent dark:hover:text-light border-2 border-primary transition-colors ease-in-out delay-100">
           Download CV
         </button>
       </nav>

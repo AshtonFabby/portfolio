@@ -10,7 +10,7 @@ const Services = () => {
       <div className=" lg:flex justify-between items-center mt-10">
         <div className=" space-y-4 mt-5 lg:mt-0 w-8/12">
           <div className=" grid md:grid-cols-2 gap-5">
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 Website Development
               </h3>
@@ -19,7 +19,7 @@ const Services = () => {
                 <br /> React, WordPress
               </p>
             </span>
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 Mobile app Development
               </h3>
@@ -27,7 +27,7 @@ const Services = () => {
                 Hybrid native android/ <br /> ios applications
               </p>
             </span>
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 API Development
               </h3>
@@ -35,7 +35,7 @@ const Services = () => {
                 Backends for front end <br /> and mobile apps
               </p>
             </span>
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 System Administration
               </h3>
@@ -43,7 +43,7 @@ const Services = () => {
                 Windows, Linux system <br /> maintenance
               </p>
             </span>
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 UI/UX Design
               </h3>
@@ -51,7 +51,7 @@ const Services = () => {
                 mobile apps and websites <br /> visual design
               </p>
             </span>
-            <span className="p-10 hover:bg-[#272727] duration-500 ease-in-out">
+            <span className="p-10 hover:bg-[#272727] hover:text-light duration-500 ease-in-out">
               <h3 className="text-lg font-semibold text-center">
                 Graphics Design
               </h3>

@@ -18,7 +18,7 @@ const Contact = (props, ref) => {
       </h3>
       <div className=" flex gap-5 items-center justify-center">
         <a href="mailto:ashtonfabbt@gmail.com">
-          <button className="bg-primary px-7 py-2 text-dark font-semibold hover:bg-transparent hover:text-light border-2 border-primary transition-colors ease-in-out delay-75 mt-10">
+          <button className="bg-primary px-7 py-2 text-dark font-semibold hover:bg-transparent dark:hover:text-light border-2 border-primary transition-colors ease-in-out delay-75 mt-10">
             Get in touch
           </button>
         </a>
@@ -40,7 +40,7 @@ const Contact = (props, ref) => {
           <FaGithub size={20} className=" hover:text-primary" />
         </a>
       </div>
-      <a href="mailto:ashtonfabbt@gmail.com">ashtonfabbt@gamil.com</a>
+      <a href="mailto:ashtonfabbt@gmail.com">ashtonfabbt@gmail.com</a>
     </section>
   );
 };
