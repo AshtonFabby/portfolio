@@ -6,7 +6,9 @@ import WorkItem from "./work_item";
 const WorkSection = () => {
   return (
     <section className=" my-10 md:my-20  " id="work">
-      <h1 className=" font-bebas text-5xl text-center">MY Work</h1>
+      <h1 id="my-work" className=" opacity-0 font-bebas text-5xl text-center">
+        MY Work
+      </h1>
 
       <WorkItem
         title="KP Records website"
@@ -56,13 +58,23 @@ const WorkSection = () => {
         imageAlt="iadvertise website mockup"
         stack={["React", "TailwindCSS", "Strapi"]}
       />
-      <div className="py-44 flex flex-col items-center justify-center mx-auto">
+      <div
+        id="more"
+        className="py-44 flex flex-col items-center justify-center mx-auto"
+      >
         <div className="  text-center">
-          <h2 className=" font-bebas text-7xl text-primary ">
-            Not impressed yet?
+          <h2
+            id="more-text"
+            className=" font-bebas text-7xl text-primary opacity-0 translate-y-20 "
+          >
+            Want to see more!
           </h2>
-          <Link href={"/"} className=" hover:text-primary duration-100">
-            check out other projects
+          <Link
+            id="more-link"
+            href={"/projects"}
+            className=" hover:text-primary duration-100 opacity-0"
+          >
+            check out my other projects here
           </Link>
         </div>
       </div>

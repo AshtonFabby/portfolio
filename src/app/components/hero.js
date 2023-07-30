@@ -22,12 +22,15 @@ const HeroSection = () => {
           I&apos;m a full-stack developer with a design background that
           specializes in creating web-based experiences.
         </p>
-        <button
-          id="button"
-          className="hover:bg-primary px-7 py-2 hover:text-dark border-2 border-primary active:text-light active:bg-green-700 active:border-green-700  font-semibold mt-5 transition-colors duration-75 opacity-0"
-        >
-          Get in touch
-        </button>
+
+        <a href="#contact">
+          <button
+            id="button"
+            className="hover:bg-primary px-7 py-2 hover:text-dark border-2 border-primary active:text-light active:bg-green-700 active:border-green-700  font-semibold mt-5 transition-colors duration-75 opacity-0"
+          >
+            Get in touch
+          </button>
+        </a>
       </div>
     </section>
   );
