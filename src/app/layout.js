@@ -13,8 +13,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Farai Bauti Portfolio",
+  title: "Farai Bauti",
   description: "Portfolio of Farai Bauti",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {

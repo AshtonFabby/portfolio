@@ -51,7 +51,7 @@ const NavBar = () => {
           </div>
         </div>
         <div
-          className={`absolute duration-300 ease-linear w-screen ${
+          className={`absolute duration-300 ease-linear w-screen z-50 ${
             navOpen ? "right-0 " : "-right-full"
           }`}
         >
@@ -59,7 +59,7 @@ const NavBar = () => {
           <div
             className={`${
               navOpen ? "" : "hidden"
-            } h-[83.5vh] bg-dark w-screen flex flex-col justify-center items-center lg:hidden"`}
+            } h-[83.5vh] bg-dark w-screen flex flex-col justify-center items-center lg:hidden" `}
           >
             <div className=" links flex flex-col gap-10 items-center justify-center">
               <a href="#bio" className="">

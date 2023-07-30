@@ -8,13 +8,13 @@ const HeroSection = () => {
       <div className=" mx-auto container h-[550px] w-full flex flex-col items-center justify-center">
         <h2
           id="title"
-          className="uppercase opacity-0 translate-y-9 text-4xl text-primary font-bebas"
+          className="uppercase opacity-0 translate-y-9 text-4xl text-primary font-bebas z-0"
         >
           Creative Developer
         </h2>
         <h1
           id="name"
-          className=" text-6xl md:text-8xl lg:text-9xl font-bebas text-center opacity-0 translate-y-14"
+          className=" text-6xl md:text-8xl lg:text-9xl font-bebas text-center opacity-0 translate-y-14 z-0"
         >
           Farai Ashton Bauti
         </h1>
