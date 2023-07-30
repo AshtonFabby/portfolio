@@ -19,8 +19,8 @@ const HeroSection = () => {
           Farai Ashton Bauti
         </h1>
         <p id="description" className=" text-center md:w-6/12 opacity-0">
-          I&apos;m a full-stack developer with a design background that
-          specializes in creating web-based experiences.
+          I&apos;m a full-stack developer with an eye for design who specializes
+          in crafting web-based experiences.
         </p>
 
         <a href="#contact">

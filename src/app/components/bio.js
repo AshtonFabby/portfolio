@@ -31,9 +31,9 @@ const Bio = () => {
           <br />
           In 2020, I co-founded DigitalVague, a software development company
           that specializes in creating digital experiences tailored to meet the
-          unique goals of different organizations. Our team is committed to
-          crafting solutions that not only meet functional requirements but also
-          provide exceptional user experiences.
+          unique goals of different organizations. My team and I are committed
+          to crafting solutions that not only meet functional requirements but
+          also provide exceptional user experiences.
         </p>
         <h3 id="bio-stack-title" className="opacity=0 font-bebas text-4xl">
           My Stack
