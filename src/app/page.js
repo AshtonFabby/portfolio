@@ -119,7 +119,7 @@ export default function Home() {
       scrollTrigger: { trigger: more_text, start: "top center" },
     });
 
-    tl.to(more_text, { opacity: 1, y: 0, duration: 3 }).to(more_link, {
+    tl.to(more_text, { opacity: 1, y: 0 }).to(more_link, {
       opacity: 1,
     });
   }, []);
@@ -141,7 +141,7 @@ export default function Home() {
       .to(bio_description, { opacity: 1 })
       .to(bio_stack_title, { opacity: 1 })
       .to(bio_stack_item, { opacity: 1 })
-      .to(bio_image, { opacity: 1, duration: 5 });
+      .to(bio_image, { opacity: 1 });
   }, []);
 
   // useEffect(() => {

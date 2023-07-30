@@ -8,7 +8,7 @@ const Services = () => {
       </h1>
 
       <div className=" lg:flex justify-between items-center mt-10">
-        <div className=" space-y-4 mt-5 lg:mt-0 w-8/12">
+        <div className=" space-y-4 mt-5 lg:mt-0 md:w-8/12">
           <div id="service-items" className=" grid md:grid-cols-2 gap-5">
             <span
               id="service-item"
